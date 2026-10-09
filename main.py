@@ -1,4 +1,7 @@
 import time
+import os
+os.environ['TG_TOKEN'] = '8970754348:AAGfFCrSgvkaeXhhtkqT5Rv9oSrQOY0yvjw'
+os.environ['TG_USER_ID'] = '202686744'
 from pip._internal.cli.main import main
 
 # todo убрать когда-то
